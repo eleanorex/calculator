@@ -1,4 +1,4 @@
-function appendToDisplay(input) {
+function addToOutput(input) {
     output.textContent += input;
 }
 
