@@ -20,31 +20,31 @@
             </div>
             <div class="buttons-section">
                 <div class="column-a">
-                    <a class="operation" onclick="plusOperation()">+</a>
-                    <a class="operation" onclick="minusOperation()">-</a>
-                    <a class="operation" onclick="multiplyOperation()">*</a>
-                    <a class="operation" onclick="divideOperation()">/</a>
-                    <a class="operation" onclick="clearOperation()">C</a>
+                    <a class="operation" onclick="appendToDisplay('+')">+</a>
+                    <a class="operation" onclick="appendToDisplay('-')">-</a>
+                    <a class="operation" onclick="appendToDisplay('*')">*</a>
+                    <a class="operation" onclick="appendToDisplay('/')">/</a>
+                    <a class="operation" onclick="clearOutput()">C</a>
                 </div>
                 <div class="column-b">
-                    <a class="number" onclick="addSevenOperation()">7</a>
-                    <a class="number" onclick="addFourOperation()">4</a>
-                    <a class="number" onclick="addOneOperation()">1</a>
-                    <a class="number" onclick="addZeroOperation()">0</a>
+                    <a class="number" onclick="appendToDisplay('7')">7</a>
+                    <a class="number" onclick="appendToDisplay('4')">4</a>
+                    <a class="number" onclick="appendToDisplay('1')">1</a>
+                    <a class="number" onclick="appendToDisplay('0')">0</a>
                     <a class="number" fix></a>
                 </div>
                 <div class="column-c">
-                    <a class="number" onclick="addEightOperation()">8</a>
-                    <a class="number" onclick="addFiveOperation()">5</a>
-                    <a class="number" onclick="addTwoOperation()">2</a>
-                    <a class="number" onclick="addDotOperation()">.</a>
+                    <a class="number" onclick="appendToDisplay('8')">8</a>
+                    <a class="number" onclick="appendToDisplay('5')">5</a>
+                    <a class="number" onclick="appendToDisplay('2')">2</a>
+                    <a class="number" onclick="appendToDisplay('.')">.</a>
                     <a class="number" fix></a>
                 </div>
                 <div class="column-d">
-                    <a class="number" onclick="addNineOperation()">9</a>
-                    <a class="number" onclick="addSixOperation()">6</a>
-                    <a class="number" onclick="addThreeOperation()">3</a>
-                    <a class="number" onclick="equalOperation()">=</a>
+                    <a class="number" onclick="appendToDisplay('9')">9</a>
+                    <a class="number" onclick="appendToDisplay('6')">6</a>
+                    <a class="number" onclick="appendToDisplay('3')">3</a>
+                    <a class="number" onclick="calculate()">=</a>
                     <a class="number" fix></a>
                 </div>
             </div>
