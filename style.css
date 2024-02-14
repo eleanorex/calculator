@@ -11,9 +11,12 @@ html {
     height: 500px;
     background-color: rgb(0, 0, 0);
     border-radius: 50px;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 p {
     color: white;
+    font-size: 30px;
 }
+
