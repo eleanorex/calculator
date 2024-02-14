@@ -1,32 +1,66 @@
-const output = document.getElementById("output");
-
-function appendToOutput(value) {
-    output.textContent += value;
+function plusOperation() {
+    output.textContent += "+";
 }
 
-function clearOutput() {
+function minusOperation() {
+    output.textContent += "-";
+}
+
+function multiplyOperation() {
+    output.textContent += "*";
+}
+
+function divideOperation() {
+    output.textContent += "/";
+}
+
+function clearOperation() {
     output.textContent = "";
 }
 
-function calculateResult() {
-    try {
-        output.textContent = eval(output.textContent);
-    } catch (error) {
-        output.textContent = "Error";
-    }
+function addSevenOperation() {
+    output.textContent += "7";
 }
 
-document.querySelectorAll(".number").forEach((button) => {
-    button.addEventListener("click", () => {
-        appendToOutput(button.textContent);
-    });
-});
+function addFourOperation() {
+    output.textContent += "4";
+}
 
-document.querySelectorAll(".operation").forEach((button) => {
-    button.addEventListener("click", () => {
-        appendToOutput(button.textContent);
-    });
-});
+function addOneOperation() {
+    output.textContent += "1";
+}
 
-document.getElementById("clear").addEventListener("click", clearOutput);
-document.getElementById("equal").addEventListener("click", calculateResult);
+function addZeroOperation() {
+    output.textContent += "0";
+}
+
+function addEightOperation() {
+    output.textContent += "8";
+}
+
+function addFiveOperation() {
+    output.textContent += "5";
+}
+function addTwoOperation() {
+    output.textContent += "2";
+}
+
+function addDotOperation() {
+    output.textContent += ".";
+}
+
+function addNineOperation() {
+    output.textContent += "9";
+}
+
+function addSixOperation() {
+    output.textContent += "6";
+}
+
+function addThreeOperation() {
+    output.textContent += "3";
+}
+
+function equalOperation() {
+    output.textContent = eval(output.textContent);
+}
