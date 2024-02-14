@@ -62,5 +62,5 @@ function addThreeOperation() {
 }
 
 function equalOperation() {
-    output.textContent = eval(output.textContent).toFixed(10);
+    output.textContent = eval(output.textContent)
 }
